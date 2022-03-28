@@ -54,7 +54,7 @@ body{
 }
 
 #main{
-    width: 100%;
+    width: 103%;
     height: 88vh;
     display: flex;
     justify-content: center;
@@ -126,5 +126,11 @@ body{
         height: 50%;
         opacity: 0;
         left: -25%;
+    }
+}
+
+@media (max-width : 480px) {
+    #navbar ul{
+        width: 100%;
     }
 }
